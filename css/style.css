@@ -1,0 +1,382 @@
+/* Reseteo universal*/
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 80%;
+    font-family: Arial, Helvetica, Verdana;
+}
+
+body {
+    font-family: Helvetica, Verdana, Arial;
+    background-image: url(/imagenes/FondoTNM.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    font-size: 18pt;
+    color: #000000;
+    font-family: Arial, Helvetica, Verdana;
+}
+
+h2 {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    font-size: 12pt;
+    color: #0000FF;
+    font-family: Arial, Helvetica, Verdana;
+}
+
+h3 {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+    font-size: 12pt;
+    color: #00008B;
+    font-family: Arial, Helvetica, Verdana;
+}
+
+h6 {
+    text-align: center;
+    font-size: 14pt;
+    color: #00008B;
+    font-family: Arial, Helvetica, Verdana;
+}
+
+.middle.space {
+    height: 25px;
+}
+
+.one.space {
+    height: 50px;
+}
+
+.two.space {
+    height: 100px;
+}
+
+.three.space {
+    height: 200px;
+}
+
+.four.space {
+    height: 300px;
+}
+
+.five.space {
+    height: 400px;
+}
+
+.six.space {
+    height: 500px;
+}
+
+.seven.space {
+    height: 600px;
+}
+
+.eight.space {
+    height: 700px;
+}
+
+.nine.space {
+    height: 800px;
+}
+
+.ten.space {
+    height: 9000px;
+}
+
+.eleven.space {
+    height: 1000px;
+}
+
+.espacio1 {
+    height: 20px;
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+.logo1 {
+    width: 50%;
+    float: left;
+}
+
+.logo1 img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo2 {
+    width: 50%;
+    float: left;
+}
+
+.logo2 img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.centro {
+    width: 200px;
+}
+
+a {
+    color: #FC7C3D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00008B;
+}
+
+.two.space a {
+    float: right;
+}
+
+.titulo_tab {
+    background: #E2E2E2;
+    color: #000;
+    text-align: center;
+    border-collapse: separate;
+}
+
+.cuerpo_tab {
+    background: #3a3aa1ab;
+    color: rgb(1, 18, 37);
+    text-align: center;
+}
+
+td,
+td {
+    padding: 10px;
+}
+
+.titulo_tab tr,
+.cuerpo_tab tr {
+    padding: 200px;
+}
+
+section#contenido {
+    min-width: 525px;
+    max-width: 525px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0.25em;
+    vertical-align: top;
+}
+
+nav a {
+    /* Barra de navegacion*/
+    background: #FFF;
+    border: 0.1em solid #FC7C3D;
+    border-radius: 0.25em;
+    box-shadow: 0 0 10px 0.5px;
+    color: #5E0525;
+    display: block;
+    font-family: Helvetica, Verdana;
+    font-size: 1.25em;
+    padding: 0.2em;
+    --webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+nav a:hover {
+    background: #FC7C3D;
+    border: 0.1em solid #5E0525;
+    border-radius: 0.25em;
+    color: #FFF;
+    --webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+figcaption {
+    font-size: 0.85em;
+    padding: 0.25em;
+    text-align: center;
+}
+
+section#principal {
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    float: center;
+}
+
+#principal img {
+    border-radius: 10px;
+}
+
+aside#formulario {
+    background: #e2e7f1;
+    border-radius: 0.2em;
+    box-shadow: 0 0 10px 0.5px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 0.25em;
+    max-width: 100%;
+    padding: 0.25;
+    vertical-align: top;
+    width: 65%;
+    border: 0.3em solid #5E0525;
+    border-radius: 0.5em;
+    text-align: justify;
+    color: #5E0525;
+}
+
+section#contacto {
+    background: #e2e7f1;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 0.5px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 0.25em;
+    max-width: 100%;
+    padding: 0.25;
+    vertical-align: top;
+    width: 65%;
+    border: 0.3em solid #5E0525;
+    border-radius: 0.5em;
+}
+
+form#formulario {
+    background: #e2e7f1;
+    border-radius: 0.2em;
+    box-shadow: 0 0 10px 0.5px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 0.25em;
+    max-width: 100%;
+    padding: 0.25;
+    vertical-align: top;
+    width: 65%;
+    border: 0.1em solid #5E0525;
+    border-radius: 0.5em;
+    text-align: justify;
+    color: #00008B;
+}
+
+article#slider {
+    height: 10%;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: left;
+    overflow: hidden;
+    width: 95%;
+}
+
+aside#formulario {
+    width: 30%;
+}
+
+footer {
+    background: #0000FF;
+    color: #FFF;
+    font-size: 0.85em;
+    padding: 0.75em 0;
+    width: 100%;
+    text-align: center;
+}
+
+input#txtNombre,
+input#txtEmail,
+input#txtEven {
+    background: #FFF;
+    color: #00008B;
+    font-family: Arial, Helvetica, Verdana;
+    width: 300px;
+    height: 25px;
+    font-size: 12pt;
+}
+
+input#txtNombreU,
+input#txtNombre,
+input#txtUsuario,
+input#txtConfirmaP,
+input#txtPassword,
+input#txtEmail,
+input#txtAP,
+input#txtAM,
+input#txtEven,
+input#txtCarrera,
+input#txtNumC,
+input#txtNC,
+input#txtNA,
+input#txtP,
+input#txtPer,
+input#txtFe,
+select#txtCarrera {
+    background: #FFF;
+    color: #000000;
+    font-family: Arial, Helvetica, Verdana;
+    width: 300px;
+    height: 25px;
+    font-size: 12pt;
+}
+
+input#envio_comentario {
+    font-size: 10px;
+    font-family: Verdana, Helvetica;
+    font-weight: bold;
+    color: white;
+    background: #00008B;
+    width: 90px;
+    height: 30px;
+}
+
+article#logos {
+    text-align: right;
+}
+
+legend#titulo_frm {
+    text-align: center;
+}
+
+@media screen and (max-width:670px) {
+    .logo1,
+    .logo2 {
+        width: 100%;
+        float: center;
+        padding: 10px;
+    }
+}
+
+.TablaMenu {
+    width: 10px;
+    padding-left: 20px;
+}
