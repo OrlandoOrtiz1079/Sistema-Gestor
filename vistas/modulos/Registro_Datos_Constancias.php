@@ -100,7 +100,7 @@ $link = conectarse();
 
 </head>
 
-<body>
+<body">
     <!--========== LLAMADA A CABEZOTE ==========-->
     <?php
     include "Cabezote.php";

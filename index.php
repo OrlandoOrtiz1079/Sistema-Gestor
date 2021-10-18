@@ -50,7 +50,7 @@
 	<!--SECCION CONTENIDO -->
 	<section id="contenido">
 		<section id="principal">
-			<a href="vistas/modulos/Inicio.php" class="enviar"><img src="imagenes/sesion.jpg">&nbsp;Iniciar Sesión</a>
+			<a href="vistas/modulos/Inicia_Sesion.php" class="enviar"><img src="imagenes/sesion.jpg">&nbsp;Iniciar Sesión</a>
 			<div class="espacio1"></div>
 			<div align="center"><img class="centro" src="imagenes/ITILogo.png" title="Logo Intituto Tecnológico de Iguala"></div>
 			<div class="three space"></div>
@@ -58,10 +58,8 @@
 	</section>
 	<!--SECCION PIE DE PAGINA -->
 	<footer>
-		<?php
-		include "vistas/modulos/footer.php"
-		?>
-
+		(C) Copyright alls Reserved
+	</footer>
 </body>
 
 </html>

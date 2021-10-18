@@ -13,7 +13,7 @@ $link = conectarse();
   ?>
 </head>
 
-<body >
+<body>
 
   <?php
   include "Cabezote.php";

@@ -5,7 +5,7 @@ $link = conectarse();
 
 if (isset($_POST['Cancelar'])) {
 	echo '<script languaje =javascript>
-					self.location="../vistas/modulos/Inicio.php";
+					self.location="../vistas/modulos/inicia_Sesion.php";
 					</script>';
 }
 
@@ -172,7 +172,7 @@ if (isset($_POST['Enviar'])) {
 	if ($_POST['txtNombre'] == NULL || $_POST['txtAP'] == NULL || $_POST['txtAM'] == NULL || $_POST['txtNC'] == NULL || $_POST['txtCarrera'] == NULL || $_POST['txtNumCred'] == NULL || $_POST['txtVal'] == NULL || $_POST['txtEven'] == NULL || $_POST['txtPer'] == NULL || $_POST['txtFe'] == NULL) {
 		echo '<script languaje =javascript>
 					alert ("ERROR: No debes de Dejar Espacios en Blanco")
-					self.location="../vistas/modulos/Inicio.php";
+					self.location="../vistas/modulos/inicia_Sesion.php";
 					</script>';
 	} else {
 
@@ -186,7 +186,7 @@ if (isset($_POST['Enviar'])) {
 		echo "<SCRIPT>window.open ('Visualiza.php?nom=$nombre&AP=$AP&AM=$AM&NumCon=$NumCon&carrera=$carrera&Cred=$Cr&Valor=$Val&Desem=$Des&Even=$Even&Periodo=$Periodo&fecha=$fech','mywindow');</SCRIPT>";
 
 		echo '<script languaje =javascript>				
-					self.location="../vistas/modulos/Inicio.php";
+					self.location="../vistas/modulos/inicia_Sesion.php";
 					</script>';
 	}
 }//fin del if validar el boton enviar
